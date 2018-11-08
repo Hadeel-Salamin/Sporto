@@ -1,0 +1,334 @@
+
+.container{
+	background-image: url(http://www.apartime.com/images/Fc%20Barcelona.JPG);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+header h1{
+	font-family: "Times New Roman", Times, serif;
+    color: #054494;
+	font-size: 25pt;
+	margin-left: 300%;
+
+		}
+
+
+h1 i{
+	font-size: 40pt !important;
+	margin-left: 17px;
+}
+
+
+
+.dp{
+    opacity: 2.5;
+    width: 15%;
+
+
+}
+body {
+    text-align: center;
+}
+
+.sp{
+	display: inline-flex;
+    border-radius:20%;
+    text-align: center;
+    font-family: monospace;
+	font-size:20pt;
+	padding:1px;
+    color: #054494;
+    font-weight: bold;
+    padding-top: -10%;
+    margin-top:-90%;
+    border: 4px  blue;
+    color:
+
+}
+span{
+	color:#8a345d;
+	font-size: 30pt;
+	}
+#h{
+	display: inline-block;
+	padding: 20px;
+}
+.simg{
+    position: absolute;
+    padding-left: 108px;
+    bottom: 77%;
+    width:80px;
+    height:60px;
+}
+.cimg{
+	width: 250px;
+	height: 250px;
+	border-radius: 5%;
+
+}
+
+.card1{
+    width: 70%;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 20%;
+    border: 4px  blue;
+    text-align: center;
+    background-color: #dcd8de;
+    opacity: 2.5;
+    padding: 10px;
+
+   }
+
+.card2 {
+	width: 70%;
+	display: inline-block;
+	border-radius: 20%;
+	border: 4px  blue;
+	text-align: center;
+	background-color: #dcd8de;
+    opacity: 2.5;
+    padding: 10px;
+ }
+
+.cards{
+	text-align: left;
+	display: inline-flex;
+	width: 80%;
+ }
+
+.cards h1{
+	font-family: "Times New Roman", Times, serif;
+	font-size:20pt;
+	color:#8a345d;
+}
+
+.cards a{
+	text-decoration: none;
+}
+.card1:hover {
+    background-color:#ffe06a;
+    /*#346a8a*/
+}
+.card2:hover {
+    background-color:#ffe06a;
+    /*#346a8a*/
+}
+
+footer{
+	background-color: #044494;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0 !important;
+}
+
+ nav a{
+     float: right;
+     text-decoration: none;
+     padding: 10px;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     font-size: 20px;
+     border-radius: 4px;
+}
+ nav a:hover {
+     background-color: #ddd;
+     color: black;
+}
+ nav a.active {
+     background-color: #4CAF50;
+     color: white;
+}
+ #copyright{
+     text-decoration: none;
+     text-align: center;
+     float: left;
+}
+/*Moutaz work */
+label{
+    color: white;
+    font-size: 28px;
+    font-weight:bolder;
+
+}
+#s-contener{
+    display: flex;
+    flex-direction: column;
+}
+.des{
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+
+}
+.s-team{
+    width: 100%;
+    background-image: url("DNiomOTWkAAPoCs.jpg");
+    background-size: cover;
+    overflow: scroll;
+}
+.s-player{
+    width: 100%;
+    background-image: url("villa-stars-cutout-football-player-barcelona-fc-640x960-wallpaper.jpg");
+    background-size: cover;
+
+}
+.st-search{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+#sp-search{
+    margin: 20px;
+    padding: 10px;
+     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+input{
+    margin: 10px;
+    height: 56px;
+    width: 50%;
+    border-radius: 5%;
+}
+#st-info{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+#stp-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+#tp-img{
+    width: 25%;
+    height: 100%;
+}
+#tp-img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#tp-name{
+    width: 70%;
+    height: 95%;
+}
+#tp-name1{
+    padding: 11%;
+    font-size: 24px;
+    color: aliceblue;
+}
+#pp-info{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#player-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+#p-img{
+    width: 50%;
+    height: 100%;
+}
+#p-img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#pp{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    height: 100%;
+}
+#p-1,#p-2,#p-3,#p-4,#p-5{
+    font-size: 24px;
+    color: aliceblue;
+    margin-top: 30px
+}
+.ss{
+    color: #faffc4;
+}
+@media only screen and (min-width: 650px) {
+
+
+.s-team{
+    width: 100%;
+    background-image: url("ofoImjh.jpg");
+    background-size: cover;
+    overflow: scroll;
+}
+.s-player{
+    width: 100%;
+    background-image: url("FOOTBALL-STARS_BIS.jpg");
+    background-size: cover;
+}
+#stp-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 70%;
+}
+    #stp-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 75%;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+}
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable th{
+  display: none;
+}
+ #myTable td {
+    text-align: center; /* Left-align text */
+    padding: 5px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+#resize{
+
+  width: 100%;
+  height: 150px;
+}
